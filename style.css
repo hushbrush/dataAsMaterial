@@ -296,6 +296,57 @@ body.page10 p {
     }
 }
 
+body.page11 {
+    font-family: "fulgora-blanca", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+body.page11 p {
+    font-size: 100px;
+    line-height: 50%;
+    display: inline-block;
+    padding: 200px;
+    word-spacing: 3em;
+    
+}
+
+body.page12 {
+    font-family: "sedgwick", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+body.page12 p {
+    font-size: 70px;
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+    line-height: 90%;
+    word-spacing: 0.2em;
+    animation: lineWidth 7s ease-in-out infinite alternate;
+    text-align: right;
+    
+}
+
+@keyframes lineWidth {
+    0% {
+        width: 0;
+        
+    }
+    100% {
+        width: 100%;
+        
+    }
+}
+
+
 body.page13 {
     font-family: "desire-pro", serif;
 font-weight: 400;
