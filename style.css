@@ -170,6 +170,70 @@ animation: distort 5s ease-in-out 1s infinite alternate both;
     color: #3498db;
     animation: distort 3s ease-in-out infinite alternate;
 }
+
+body.page7{
+   
+font-family: "roster-condensed", serif;
+font-weight: 500;
+font-style: normal;
+font-size: 80px;
+color: #000000;
+  
+}
+
+
+
+span.page7 {
+
+    display: inline-block !important;
+    font-family: "roster-narrow", serif ;
+    font-size: 40px;;
+    font-weight: 100 !important;
+}
+
+div.page7 {
+
+    display: inline-block;
+    font-family: "roster-expanded", serif;
+    font-weight: 700;
+}
+
+
+body.page8{
+   
+    font-family: "rl-aqva", sans-serif;
+    font-weight: 200;
+    font-size: 60px;
+    color: #000000;
+   
+    }
+    
+    p.page8{
+
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    span.page8 {
+    
+        display: inline-block !important;
+        font-family: "rl-aqva", sans-serif;
+        font-weight: 10;
+        transform: uppercase;;
+        font-size: 20px;
+    }
+    
+    div.page8 {
+    
+        display: inline-block;
+        font-family: "rl-aqva", sans-serif;
+        font-weight: 900;
+        transform: uppercase;
+        font-size: 100px;
+    
+    }
+
+
 body.page13 {
     font-family: "desire-pro", serif;
 font-weight: 400;
