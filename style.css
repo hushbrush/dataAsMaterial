@@ -249,8 +249,8 @@ body.page9{
     font-family: "tt-modernoir", sans-serif;
 font-weight: 700;
 font-style: normal;
-letter-spacing: 0.4em;
-word-spacing: 1em;;
+letter-spacing: 0.01em;
+word-spacing: 0.1em;;
 text-align: right;
 }
 
@@ -263,6 +263,38 @@ text-align: right;
     span.size7 { font-size: 74px; }
     span.size8 { font-size: 80px; }
     
+
+body.page10 {
+    font-family: "acid-green", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+body.page10 p {
+    font-size: 20px;
+    line-height: 200%;
+    display: inline-block;
+    padding: 500px, 200px;
+    animation: rhythm 5s ease-in-out infinite alternate;
+}
+
+@keyframes rhythm {
+    0% {
+        transform: scale(1);
+    }
+    
+    50% {
+        transform: scale(1.2);
+    }
+   
+    100% {
+        transform: scale(1);
+        padding: 800px;
+    }
+}
 
 body.page13 {
     font-family: "desire-pro", serif;
