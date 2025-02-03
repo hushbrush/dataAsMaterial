@@ -219,24 +219,6 @@ animation: ocean 7s ease-in-out infinite alternate both;
 }
 
 
-body.page20 {
-    font-family: "dickens-tale-script", sans-serif;
-font-weight: 600;
-font-style: normal;
-}
-p.page20 {
-    line-height: 0.5em;
-    font-size: 50px;
-    color: #ffffff;
-    text-align: right;
-    margin-top: 150px;
-    margin-bottom: 150px;
-    stroke-linecap: round;
-    text-decoration-line: line-through underline overline;
-    background-color: black;
-    animation: writing 5s steps(30) 1s infinite both;
-}
-
 
 body.page9 {
     font-family: "contempora-script", sans-serif;
@@ -298,3 +280,52 @@ p.page17 {
 }
 
 
+
+body.page19 {
+    font-family: "filmotype-maxwell", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+p.page19 {
+    line-height: 0.8em;
+    letter-spacing: 0.4em;
+    font-size: 40px;
+    color: #000000;
+    text-align: right;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    stroke-linecap: round;
+    font-stretch: extra-expanded;
+    background-color: rgb(255, 255, 255);
+    
+}
+p.page19 span {
+    display: inline-block;
+    background-color: rgb(0, 0, 0);
+}
+
+p.page19 strong {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    text-decoration-line: line-through;
+}
+
+
+
+body.page20 {
+    font-family: "dickens-tale-script", sans-serif;
+font-weight: 600;
+font-style: normal;
+}
+p.page20 {
+    line-height: 0.5em;
+    font-size: 50px;
+    color: #ffffff;
+    text-align: right;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    stroke-linecap: round;
+    text-decoration-line: line-through underline overline;
+    background-color: black;
+    animation: writing 5s steps(30) 1s infinite both;
+}
