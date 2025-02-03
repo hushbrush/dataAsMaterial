@@ -1,0 +1,132 @@
+
+body.page1 {
+    font-family: "snaga-arabic-text-hairline", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+   
+}
+p.page1 {
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+body.page2{
+    font-family: "playwrite-cc-id", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+p.page2 {
+    font-size: 20px;
+    color: #000000;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    line-height: 3em;
+    letter-spacing: 0.1em;
+    word-spacing: 1em;
+    text-align:  left;
+    text-indent: 150px;
+    animation: typing 10s steps(30, end);
+    
+
+ 
+}
+
+
+body.page3{
+   
+font-family: "aabak ", sans-serif;
+font-weight: 100;
+font-style: normal;
+}
+
+p.page3 {
+    font-size: 20px;
+    line-height: 2;
+    color: #000000;
+    text-align: right;
+    margin-top: 150px;
+    margin-bottom: 150px;
+   
+}
+
+
+@keyframes typing {
+    from {
+        letter-spacing: -5em;
+        opacity: 0;
+    }
+    to {
+        letter-spacing: 5em;
+        opacity: 1;
+    }
+}
+
+
+
+body.page4 {
+    background-color: #000000;
+    font-family: "jacquarda-bastarda-9", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+p.page4 {
+    font-size: 50px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    letter-spacing: 0.3em;
+    /* line-height: 2em;
+    word-spacing: 0.2em; */
+    
+    animation: pixel 10s ease-in-out 1s infinite alternate both;
+}
+
+@keyframes pixel {
+    0% { 
+        opacity: 0;
+        line-height: 5em; 
+        word-spacing: 5em;
+        letter-spacing: 1em;
+        text-shadow: 5px 5px 0px rgba(255, 255, 255, 0.3); /* Blurry, scattered look */
+        filter: blur(5px);
+    }
+    50% {
+        opacity: 0.7;
+        line-height: 3em;
+        word-spacing: 2em;
+        letter-spacing: 0.5em;
+        text-shadow: 2px 2px 0px rgba(255, 255, 255, 0.5);
+        filter: blur(2px);
+    }
+    100% { 
+        opacity: 1;
+        line-height: 1em;
+        word-spacing: -0.2em;
+        letter-spacing: 0.05em;
+        text-shadow: 0px 0px 0px rgba(255, 255, 255, 1); /* Sharp and focused */
+        filter: blur(0px);
+    }
+}
+
+
+
+
+
+body.page5{
+   
+    font-family: "Thermal Variable Thin Text Italic",sans-serif;
+    font-variation-settings: 'wght' 100, 'opsz' 100;
+  
+}
+
+p.page5 {
+font-size: 200px;
+color: #000000;
+text-align: left;
+margin-top: 150px;
+margin-bottom: 150px;
+}
