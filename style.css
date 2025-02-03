@@ -23,7 +23,7 @@ p.page2 {
     margin-top: 150px;
     margin-bottom: 150px;
     line-height: 3em;
-    letter-spacing: 0.1em;
+    letter-spacing: 0;
     word-spacing: 1em;
     text-align:  left;
     text-indent: 150px;
@@ -138,38 +138,57 @@ font-style: normal;
 }
 
 p.page6{
-    /* font-size: 20px;
-    color: #000000;
-    text-align: left;
-    margin-top: 150px;
-    margin-bottom: 150px;
-    line-height: 2em;
-    word-spacing: 1em;
-    
-    animation: writing 10s steps(30, end); */
+   
     font-size: 50px;
     text-decoration:  rgb(180, 213, 243) underline;
     color: #000000;
     text-align: left;
     margin-top: 150px;
     margin-bottom: 150px;
-    white-space: nowrap; /* Prevent text from wrapping */
-    overflow: hidden; /* Ensure hidden text is not visible */
-    width: 0; /* Start with no visible width */
+    white-space: nowrap; 
+    overflow: hidden; 
+    width: 0; 
     animation: writing 5s steps(30) 1s forwards;
 }
-p.page4 span {
-    display: inline-block; /* Ensure each line or word gets its own animation */
-    animation: writing 10s steps(30) 1s forwards; /* Adjust animation speed based on word count */
+p.page span {
+    display: inline-block; 
+    animation: writing 10s steps(30) 1s forwards; 
 }
 
 @keyframes writing {
     from {
-        width: 0; /* Start with no text visible */
+        width: 0; 
     }
     to {
-        width: 100%; /* Reveal the entire text */
+        width: 100%;
     }
 }
 
-/* Scratching or scribbling effect for each word */
+body.page17 {
+    font-family: "kumar-one-outline", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+p.page17 {
+    font-size: 40px;
+    color: #000000;
+    text-shadow: 2px 2px rgb(180, 180, 180);
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    line-height: 0px;
+    animation: texture 5s ease-in-out 1s infinite alternate both;
+}
+@keyframes texture {
+    from {
+        line-height: 0px;
+        transform-origin: 0%;
+    }
+    to{
+        line-height: 20px;
+        transform-style: rotateY(30deg);
+    }
+}
+
+
