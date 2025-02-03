@@ -138,13 +138,38 @@ font-style: normal;
 }
 
 p.page6{
-    font-size: 20px;
+    /* font-size: 20px;
     color: #000000;
     text-align: left;
     margin-top: 150px;
     margin-bottom: 150px;
     line-height: 2em;
     word-spacing: 1em;
-    text-decoration: solid rgb(136, 195, 246) underline;
-    /* animation: typing 10s steps(30, end); */
+    
+    animation: writing 10s steps(30, end); */
+    font-size: 50px;
+    text-decoration:  rgb(180, 213, 243) underline;
+    color: #000000;
+    text-align: left;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: hidden; /* Ensure hidden text is not visible */
+    width: 0; /* Start with no visible width */
+    animation: writing 5s steps(30) 1s forwards;
 }
+p.page4 span {
+    display: inline-block; /* Ensure each line or word gets its own animation */
+    animation: writing 10s steps(30) 1s forwards; /* Adjust animation speed based on word count */
+}
+
+@keyframes writing {
+    from {
+        width: 0; /* Start with no text visible */
+    }
+    to {
+        width: 100%; /* Reveal the entire text */
+    }
+}
+
+/* Scratching or scribbling effect for each word */
