@@ -131,13 +131,120 @@ margin-top: 150px;
 margin-bottom: 150px;
 }
 
-body.page6{
+
+
+body.page18{
+    font-family: "strenuous-3d", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+p.page18 {
+    font-size: 50px;
+    color: hsl(0, 0%, 0%);
+    text-align: justify;
+    text-justify: inter-word;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    float: right;
+    text-wrap: pretty;
+    animation-composition: 5s ease-in-out 1s infinite alternate both;
+}
+
+p.page18 span {
+    font-family: "strenuous-cast", sans-serif;
+font-weight: 400;
+font-style: normal;
+    display: inline-block;
+    color: hsl(0, 0%, 100%);
+    background-color: rgb(0, 0, 0);
+    line-height: 0.7em;
+    animation: fastly 5s cubic-bezier(0.47, 0, 0.745, 0.715) infinite alternate both;
+}
+
+p.page18 strong{
+    font-family: "strenuous", sans-serif;
+font-weight: 100;
+padding: 20px;
+animation: ocean 7s ease-in-out infinite alternate both;
+   
+}
+
+@keyframes fastly {
+    0% {
+        transform: translateY(0) rotate(0deg) scale(1);
+        filter: blur(0px);
+        text-shadow: 4px, 4px, #000000;
+    }
+    25% {
+        transform: translateY(-5px) rotate(4deg) scale(1.02);
+        filter: blur(1px);
+    }
+    50% {
+        transform: translateY(5px) rotate(-4deg) scale(0.98);
+        filter: blur(0.5px);
+        text-shadow: 4px, 4px, #000000;
+    }
+    75% {
+        transform: translateY(-3px) rotate(6deg) scale(1.01);
+        filter: blur(1px);
+    }
+    100% {
+        transform: translateY(0) rotate(0deg) scale(1);
+        filter: blur(0px);
+        text-shadow: 4px, 4px, #000000;
+    }
+}
+@keyframes ocean {
+    0% {
+        transform: translateY(0) rotate(0deg) scale(1);
+        filter: blur(0px);
+    }
+    25% {
+        transform: translateY(-5px) rotate(2deg) scale(1.5);
+        filter: blur(1px);
+    }
+    50% {
+        transform: translateY(5px) rotate(-2deg) scale(0.5);
+        filter: blur(0.5px);
+    }
+    75% {
+        transform: translateY(-3px) rotate(4deg) scale(1.2);
+        filter: blur(1px);
+    }
+    100% {
+        transform: translateY(0) rotate(0deg) scale(1);
+        filter: blur(0px);
+    }
+}
+
+
+body.page20 {
+    font-family: "dickens-tale-script", sans-serif;
+font-weight: 600;
+font-style: normal;
+}
+p.page20 {
+    line-height: 0.5em;
+    font-size: 50px;
+    color: #ffffff;
+    text-align: right;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    stroke-linecap: round;
+    text-decoration-line: line-through underline overline;
+    background-color: black;
+    animation: writing 5s steps(30) 1s infinite both;
+}
+
+
+body.page9 {
     font-family: "contempora-script", sans-serif;
 font-weight: 400;
 font-style: normal;
 }
 
-p.page6{
+p.page9 {
    
     font-size: 50px;
     text-decoration:  rgb(180, 213, 243) underline;
@@ -163,92 +270,6 @@ p.page span {
         width: 100%;
     }
 }
-
-body.page7{
-    font-family: "strenuous-3d", sans-serif;
-    font-weight: 900;
-    font-style: normal;
-}
-
-p.page7 {
-    font-size: 50px;
-    color: hsl(0, 0%, 0%);
-    text-align: justify;
-    text-justify: inter-word;
-    margin-top: 150px;
-    margin-bottom: 150px;
-    float: right;
-    text-wrap: pretty;
-    animation-composition: 5s ease-in-out 1s infinite alternate both;
-}
-
-p.page7 span {
-    font-family: "strenuous-cast", sans-serif;
-font-weight: 400;
-font-style: normal;
-    display: inline-block;
-    color: hsl(0, 0%, 100%);
-    background-color: rgb(0, 0, 0);
-    line-height: 0.7em;
-    animation: fastly 5s cubic-bezier(0.47, 0, 0.745, 0.715) infinite alternate both;
-}
-
-p.page7 strong{
-    font-family: "strenuous", sans-serif;
-font-weight: 100;
-padding: 20px;
-animation: ocean 7s ease-in-out infinite alternate both;
-   
-}
-
-@keyframes fastly {
-    0% {
-        transform: translateY(0) rotate(0deg) scale(1);
-        filter: blur(0px);
-    }
-    25% {
-        transform: translateY(-5px) rotate(4deg) scale(1.02);
-        filter: blur(1px);
-    }
-    50% {
-        transform: translateY(5px) rotate(-4deg) scale(0.98);
-        filter: blur(0.5px);
-    }
-    75% {
-        transform: translateY(-3px) rotate(6deg) scale(1.01);
-        filter: blur(1px);
-    }
-    100% {
-        transform: translateY(0) rotate(0deg) scale(1);
-        filter: blur(0px);
-    }
-}
-@keyframes ocean {
-    0% {
-        transform: translateY(0) rotate(0deg) scale(1);
-        filter: blur(0px);
-    }
-    25% {
-        transform: translateY(-5px) rotate(2deg) scale(1.3);
-        filter: blur(1px);
-    }
-    50% {
-        transform: translateY(5px) rotate(-2deg) scale(0.7);
-        filter: blur(0.5px);
-    }
-    75% {
-        transform: translateY(-3px) rotate(4deg) scale(1.01);
-        filter: blur(1px);
-    }
-    100% {
-        transform: translateY(0) rotate(0deg) scale(1);
-        filter: blur(0px);
-    }
-}
-
-
-
-
 body.page17 {
     font-family: "kumar-one-outline", sans-serif;
     font-weight: 900;
