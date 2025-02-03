@@ -133,6 +133,113 @@ margin-bottom: 150px;
 
 
 
+body.page6{
+   
+    font-family: "bc-eric-machat-headline", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  
+}
+
+p.page6 {
+font-size: 80px;
+color: #d6d6d6;
+text-align: centre;
+margin-top: 150px;
+margin-bottom: 150px;
+animation: distort 5s ease-in-out 1s infinite alternate both;
+}
+
+
+
+@keyframes distort {
+    0% {
+        transform: scale(1)
+        
+    }
+  
+    100% {
+        transform: scale(20)
+    }
+}
+
+.distorted {
+    display: inline-block;
+    font-size: 50px;
+    font-weight: bold;
+    color: #3498db;
+    animation: distort 3s ease-in-out infinite alternate;
+}
+body.page13 {
+    font-family: "desire-pro", serif;
+font-weight: 400;
+font-style: normal;
+}
+
+p.page13 {
+    font-size: 50px;
+    color: #000000;
+    text-align: left;
+    padding: 250px;
+}
+
+p.page13 span {
+    display: inline-block;
+    color: #000000;
+    transform: rotate(20deg) scalez(1.5);
+    
+}
+
+body.page15 {
+    font-family: "fit-extra-extended", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    background-color: #000000;
+}
+
+p.page15 {
+    font-size: 60px;
+    text-align: left;
+    padding: 50px;
+}
+
+p.page15 span {
+    letter-spacing: 0.5em;
+    word-spacing: 1.5em;
+    display: inline-block;
+    color: #ffffff;
+    
+  
+    
+}
+
+body.page16 {
+    font-family: "pressio-condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #ffffff;
+}
+
+p.page16 {
+    font-size: 60px;
+    text-align: left;
+    padding: 50px;
+    color: #000000;
+}
+
+span.page16  {
+    display: inline-block;
+    transform: rotate(-45deg);
+}
+
+div.page16  {
+    display: inline-block;
+    font-family: "pressio-condensed", sans-serif;
+font-weight: 700;
+font-style: normal;
+    transform: rotate(+45deg);
+}
+
 body.page18{
     font-family: "strenuous-3d", sans-serif;
     font-weight: 900;
@@ -220,13 +327,13 @@ animation: ocean 7s ease-in-out infinite alternate both;
 
 
 
-body.page9 {
+body.page14 {
     font-family: "contempora-script", sans-serif;
 font-weight: 400;
 font-style: normal;
 }
 
-p.page9 {
+p.page14 {
    
     font-size: 50px;
     text-decoration:  rgb(180, 213, 243) underline;
