@@ -130,3 +130,21 @@ text-align: left;
 margin-top: 150px;
 margin-bottom: 150px;
 }
+
+body.page6{
+    font-family: "contempora-script", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+p.page6{
+    font-size: 20px;
+    color: #000000;
+    text-align: left;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    line-height: 2em;
+    word-spacing: 1em;
+    text-decoration: solid rgb(136, 195, 246) underline;
+    /* animation: typing 10s steps(30, end); */
+}
