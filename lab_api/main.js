@@ -20,33 +20,33 @@
 //     .catch(error=>console.log(error))
 
 // STEP 3(ERROR):
-// fetch("https://pokeapi.co/api/v2/pokemon/not_a_pokemon")
-//     .then(response => console.log(response))
-//     .then(data=>console.log(data.id))
-//     .catch(error=>console.log(error))
+fetch("https://pokeapi.co/api/v2/pokemon/not_a_pokemon")
+    .then(response => console.log(response))
+    .then(data=>console.log(data.id))
+    .catch(error=>console.log(error))
 
 
 
 // STEP 4: 
-async function fetchData(){
-    try{
+// async function fetchData(){
+//     try{
 
-        const pokemonName = document.getElementById("pokemonName").value.toLowerCase();
-        const response = await fetch(`https://pokeapi.co/api/v2/pokemon/${pokemonName}`);
+//         const pokemonName = document.getElementById("pokemonName").value.toLowerCase();
+//         const response = await fetch(`https://pokeapi.co/api/v2/pokemon/${pokemonName}`);
 
-        if(!response.ok){
-            throw new Error("Could not fetch resource");
-        }
+//         if(!response.ok){
+//             throw new Error("Could not fetch resource");
+//         }
 
-        const data = await response.json();
-        const pokemonSprite = data.sprites.front_default;
-        const imgElement = document.getElementById("pokemonSprite");
+//         const data = await response.json();
+//         const pokemonSprite = data.sprites.front_default;
+//         const imgElement = document.getElementById("pokemonSprite");
 
-        imgElement.src = pokemonSprite;
-        imgElement.style.display = "block";
-    }
-    catch(error){
-        console.error(error);
-    }
-}
+//         imgElement.src = pokemonSprite;
+//         imgElement.style.display = "block";
+//     }
+//     catch(error){
+//         console.error(error);
+//     }
+// }
 

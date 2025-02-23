@@ -39,3 +39,27 @@ body {
     0% { background-position: 0px 0px; }
     100% { background-position: -100px 200px; }
 }
+
+button {
+    background: none;
+    border: 1px solid white;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+input {
+    background: none;
+    border: 1px solid white;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+    
+}
+/* input ::placeholder {
+    color: white;
+    opacity: 0.5;
+} */
