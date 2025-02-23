@@ -19,16 +19,16 @@
 //     .then(data=>console.log(data))
 //     .catch(error=>console.log(error))
 
-// STEP 3(ERRORR):
-fetch("https://pokeapi.co/api/v2/pokemon/not_a_pokemon")
-    .then(response =>response.json())
-    .then(data=>console.log(data))
-    .catch(error=>console.log(error))
+// STEP 3(ERROR):
+// fetch("https://pokeapi.co/api/v2/pokemon/not_a_pokemon")
+//     .then(response => console.log(response))
+//     .then(data=>console.log(data.id))
+//     .catch(error=>console.log(error))
 
-// FINAL: 
 
+
+// STEP 4: 
 // async function fetchData(){
-
 //     try{
 
 //         const pokemonName = document.getElementById("pokemonName").value.toLowerCase();
@@ -50,3 +50,10 @@ fetch("https://pokeapi.co/api/v2/pokemon/not_a_pokemon")
 //     }
 // }
 
+// async function fetchBGData(){
+
+   fetch("http://api.openweathermap.org/geo/1.0/direct?q=London&appid=b55e9ee0fa531e90647a1f3f574e3b7e")
+    .then(response =>response.json())
+    .then(data=>console.log(data))
+    .catch(error=>console.log(error))
+// }
