@@ -1,4 +1,6 @@
 
+//tutorial by https://www.youtube.com/watch?v=37vxWr0WgQk&ab_channel=BroCode
+
 // fetch = Function used for making HTTP requests to fetch resources.
 //              (JSON style data, images, files)
 //              Simplifies asynchronous data fetching in JavaScript and
@@ -7,19 +9,25 @@
 //              fetch(url, {options})
 
 
-// STEP 1:
+// STEP 1:(JUST FETCHING DATA, AND CHECKING WHETHER THE API IS FUNCTIONAL):
 // fetch("https://pokeapi.co/api/v2/pokemon/pikachu")
 //     .then(response =>console.log(response))
 //     .catch(error=>console.log(error))
 
 
-// STEP 2:
-// fetch("https://pokeapi.co/api/v2/pokemon/pikachu")
+// STEP 2:(CONVERTING RESPONSE TO JSON):
+// fetch("https://pokeapi.co/api/v2/pokemon/Bulbasaur")
 //     .then(response =>response.json())
 //     .then(data=>console.log(data))
 //     .catch(error=>console.log(error))
 
-// STEP 3(ERROR):
+// STEP 3(SPECIFIC DATA BASED ON HEADERS):
+// fetch("https://pokeapi.co/api/v2/pokemon/Bulbasaur")
+//     .then(response => response.json())
+//     .then(data=>console.log(data.moves))
+//     .catch(error=>console.log(error))
+
+// STEP 4(ERROR):
 fetch("https://pokeapi.co/api/v2/pokemon/not_a_pokemon")
     .then(response => console.log(response))
     .then(data=>console.log(data.id))

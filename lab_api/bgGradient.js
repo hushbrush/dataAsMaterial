@@ -1,6 +1,6 @@
 async function fetchWeather() {
-    const city = document.getElementById('cityInput').value;
-    const apiKey = '0a6dba754e316ff8e64f8b38395bda13'; 
+    const city = document.getElementById('cityInput').value; //getting from the user
+    const apiKey = '0a6dba754e316ff8e64f8b38395bda13'; //need to keep this secret
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}`;
 
     try {
@@ -9,8 +9,8 @@ async function fetchWeather() {
         if (!response.ok) {
             throw new Error("City not found");
         }
-        const data = await response.json();
-        const temp = data.main.temp;
+        const data = await response.json(); //await is used to wait for the response to come back, because it's an asynchronous function. APIs can take time to respond, especially when dealing with big datasets/images.
+        const temp = data.main.temp; //check the documentation of the API to see how to access the data that you want
         const description = data.weather[0].description;
         const weatherCondition = data.weather[0].main.toLowerCase(); 
 

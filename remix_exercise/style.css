@@ -10,6 +10,7 @@ body.page1 {
     font-family: "snaga-arabic-text-hairline", sans-serif;
     font-weight: 250;
     font-style: normal;
+    line-height: 7rem;
    
 }
 p.page1 {
@@ -46,6 +47,7 @@ body.page3{
 font-family: "aabak ", sans-serif;
 font-weight: 100;
 font-style: normal;
+letter-spacing: 10rem;
 }
 
 p.page3 {
@@ -385,7 +387,7 @@ p.page15 span {
     word-spacing: 1.5em;
     display: inline-block;
     color: #ffffff;
-    
+    transform: rotate(20deg) scalez(1.5);
   
     
 }
@@ -433,6 +435,7 @@ p.page18 {
     float: right;
     text-wrap: pretty;
     animation-composition: 5s ease-in-out 1s infinite alternate both;
+    letter-spacing: -10px;
 }
 
 p.page18 span {
@@ -571,12 +574,12 @@ body.page19 {
     font-style: normal;
 }
 p.page19 {
-    line-height: 0.8em;
-    letter-spacing: 0.4em;
+    line-height: 0.6em;
+    letter-spacing: 0.1em;
     font-size: 40px;
     color: #000000;
     text-align: right;
-    margin-top: 150px;
+    margin-top: 0px;
     margin-bottom: 150px;
     stroke-linecap: round;
     font-stretch: extra-expanded;
